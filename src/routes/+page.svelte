@@ -11,12 +11,19 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Everything works beautifully. Across every device."
+	subtitle="Designed to connect effortlessly and elevate what you do."
+	imageSrc="/generated/image-a-diverse-group-of-people-gathered-in-a-.webp"
+	centered={true}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/nike.com',
+		'https://logo.clearbit.com/target.com',
+		'https://logo.clearbit.com/verizon.com'
+	]}
+/>
 
 <Summary
 	generating
