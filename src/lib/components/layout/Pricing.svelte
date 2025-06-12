@@ -35,136 +35,132 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Plans for every Apple fan",
+		subtitle = "Pick the right plan for your lifestyle and devices",
+		tierNames = ["iCloud Basic", "Apple One Family", "Apple One Premier"],
 		features = [
 			{
-				name: "Projects",
+				name: "Monthly price",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
+					"iCloud Basic": "$0.99",
+					"Apple One Family": "$22.95",
+					"Apple One Premier": "$32.95"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Cloud storage",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
+					"iCloud Basic": "50 GB",
+					"Apple One Family": "200 GB",
+					"Apple One Premier": "2 TB"
 				}
 			},
 			{
-				name: "Storage",
+				name: "Apple Music",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
+					"iCloud Basic": false,
+					"Apple One Family": true,
+					"Apple One Premier": true
 				}
 			},
 			{
-				name: "API access",
+				name: "Apple TV+",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
+					"iCloud Basic": false,
+					"Apple One Family": true,
+					"Apple One Premier": true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Apple Arcade",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
+					"iCloud Basic": false,
+					"Apple One Family": true,
+					"Apple One Premier": true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Apple Fitness+",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					"iCloud Basic": false,
+					"Apple One Family": false,
+					"Apple One Premier": true
 				}
 			},
 			{
-				name: "Support response time",
+				name: "Apple News+",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
+					"iCloud Basic": false,
+					"Apple One Family": false,
+					"Apple One Premier": true
 				}
 			},
 			{
-				name: "Dedicated account manager",
+				name: "Family sharing",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
+					"iCloud Basic": false,
+					"Apple One Family": "Up to 5 people",
+					"Apple One Premier": "Up to 6 people"
 				}
 			},
 			{
-				name: "SLA",
+				name: "iCloud+ privacy tools",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					"iCloud Basic": false,
+					"Apple One Family": true,
+					"Apple One Premier": "Advanced"
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "iCloud Basic",
+				monthlyPrice: 0.99,
+				yearlyPrice: 0.99 * 12,
+				description: "Essential backup and storage for individuals across Apple devices.",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"50 GB secure iCloud storage",
+					"Automatic backup for all devices",
+					"Sync your photos, videos, and files everywhere",
+					"Access files from any device"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Get 50 GB",
+					href: "/signup?plan=icloud-basic"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Apple One Family",
+				monthlyPrice: 22.95,
+				yearlyPrice: 22.95 * 12,
+				description: "Entertainment and storage for your family—music, TV, games, and more.",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"200 GB iCloud+ storage",
+					"Apple Music, TV+, and Arcade included",
+					"Share with up to five people",
+					"Enhanced privacy with iCloud+"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Start Family Plan",
+					href: "/signup?plan=apple-one-family"
 				},
 				highlight: true
 			},
 			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				name: "Apple One Premier",
+				monthlyPrice: 32.95,
+				yearlyPrice: 32.95 * 12,
+				description: "The most complete bundle—maximum storage, every service, and family sharing.",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"2 TB iCloud+ storage",
+					"Apple Music, TV+, Arcade, Fitness+, and News+",
+					"Share with up to six people",
+					"Advanced privacy and custom domains",
+					"Full Apple ecosystem support"
 				],
 				cta: {
-					label: "Contact sales",
-					href: "/contact"
+					label: "Go Premier",
+					href: "/signup?plan=apple-one-premier"
 				}
 			}
 		]

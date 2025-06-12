@@ -64,8 +64,27 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "Healthcare",
-				href: "/use-cases/healthcare",
+				label: "Device Integration",
+				href: "/use-cases/device-integration",
+				image: "/generated/image-a-group-of-people-gathered-in-a-cozy-liv.webp",
+				description: "Start an email on your Mac, reply from your iPad, and finish it from your iPhone without missing a beat. With Apple's seamless handoff across devices, it's easy to stay in sync wherever you go.",
+				showInNav: true,
+				showInFooter: true
+			},{
+				label: "Family Entertainment",
+				href: "/use-cases/family-entertainment",
+				image: "/generated/image-a-family-of-four-sitting-together-in-a-s.webp",
+				description: "Share Apple TV+, Apple Arcade, and Apple Music with your family while keeping individual preferences and privacy intact. Family sharing makes it simple to manage it all from one place.",
+				showInNav: true,
+				showInFooter: true
+			},{
+				label: "Daily Wellness",
+				href: "/use-cases/daily-wellness",
+				image: "/generated/image-an-active-person-jogging-along-a-scenic-.webp",
+				description: "Track workouts with Apple Watch, view progress over time on your iPhone, and stay motivated with Fitness+ wherever you are. Your health goals, always connected and easy to follow.",
+				showInNav: true,
+				showInFooter: true
+			}
 				image:
 					"https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1920&auto=format&fit=crop",
 

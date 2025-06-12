@@ -26,18 +26,17 @@
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+	title="Designed to work as one"
+	subtitle="Every product works beautifully together—with you at the center."
+	imageSrc="/mockups/airport-screen-1749720379500.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Apple began in a garage in 1976, when Steve Jobs, Steve Wozniak, and Ronald Wayne set out to build computers people could actually use. Their goal was simple but bold: make technology more personal, more intuitive, and beautifully designed. That philosophy hasn’t changed—it’s why Apple products started with simple beginnings and sparked a global shift in how people think about and interact with technology.",
+		"From the first Mac to the iPhone, iPad, Apple Watch, and Apple TV, innovation has fueled every decision. But it’s not just about features—it’s about creating experiences that feel effortless. Apple has always focused on the person in front of the screen, building devices and software that work better together. Whether you’re listening to music, collaborating on a project, or closing your activity rings, the seamless connection across devices is designed to feel like second nature.",
+		"Today, Apple is part of everyday life for millions around the world. Our commitment to quality, privacy, and sustainability drives everything we do, from custom silicon to recycled materials in our devices. And we continue to grow not as a company that just makes products—but as a connected ecosystem built to support creativity, learning, fitness, entertainment, and financial wellbeing. It all connects back to a simple idea: technology should work for you."
 	]}
 />
 
@@ -45,58 +44,53 @@
 <Culture {values} />
 
 <!-- StakeholderGrid Section -->
-<StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
-/>
+<section class="founders">
+  <h1 class="mb-4">The team that started it all</h1>
+  <h2 class="mb-2">Behind every product, a bold beginning</h2>
+  <p class="mb-8">Apple was founded by three individuals driven by curiosity, creativity, and the belief that technology should be accessible, personal, and empowering.</p>
+  <div class="founders-section grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+    <div class="founder-card text-center">
+      <img src="/generated/image-a-charismatic-individual-in-a-studio-por.webp" alt="Steve Jobs headshot" class="object-cover rounded-lg mb-4 w-full h-auto" />
+      <h3 class="text-lg font-semibold">Steve Jobs</h3>
+      <p class="text-sm text-secondary mb-2">Co-founder & visionary leader</p>
+      <p class="text-base">Steve pushed Apple forward with his unique ability to merge technology and design. His focus on simplicity and user experience continues to shape everything we make.</p>
+    </div>
+    <div class="founder-card text-center">
+      <img src="/generated/image-a-cheerful-person-smiling-in-a-professio.webp" alt="Steve Wozniak headshot" class="object-cover rounded-lg mb-4 w-full h-auto" />
+      <h3 class="text-lg font-semibold">Steve Wozniak</h3>
+      <p class="text-sm text-secondary mb-2">Co-founder & engineering pioneer</p>
+      <p class="text-base">Woz designed and built Apple’s first computers, setting the technical foundation for the company. His dedication to innovation and efficiency still resonates across our products.</p>
+    </div>
+    <div class="founder-card text-center">
+      <img src="/generated/image-a-professional-individual-in-a-suit-capt.webp" alt="Ronald Wayne headshot" class="object-cover rounded-lg mb-4 w-full h-auto" />
+      <h3 class="text-lg font-semibold">Ronald Wayne</h3>
+      <p class="text-sm text-secondary mb-2">Co-founder</p>
+      <p class="text-base">Ron played a key early role in establishing Apple's legal and operational structure. He helped draft the company’s first partnership agreement in 1976.</p>
+    </div>
+  </div>
+  <h2 class="mb-2">Shaped by people. Redefined by ideas.</h2>
+  <p>From a small garage in California to homes and hands across the world, Apple was built on a belief: that great ideas, powered by collaboration and design, can change everything.</p>
+</section>
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+
+
+
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Help shape what’s next"
+	subtitle="Build products millions love"
+	description="At Apple, you don’t just create products—you help build the future. Whether you're a designer, engineer, or student just getting started, your ideas can make a lasting impact on the way people connect, learn, and live. Our teams thrive on collaboration, curiosity, and pushing past what’s expected."
+	callsToAction={[
+		{
+			href: "/careers",
+			label: "See open roles",
+			variant: "primary"
+		},
+		{
+			href: "/internships",
+			label: "Explore student programs",
+			variant: "secondary"
+		}
+	]}
 />

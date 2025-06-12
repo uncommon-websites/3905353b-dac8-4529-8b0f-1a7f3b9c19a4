@@ -26,107 +26,112 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Apple designs and integrates premium hardware, software, and services across iPhone, Mac, iPad, Apple Watch, and more—creating a seamless, intuitive experience for work, play, and everything in between. From streaming on Apple TV+, gaming with Apple Arcade, training with Apple Fitness+, or managing your finances through Apple Card, everything works better together in the Apple ecosystem."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Greta Lindholm",
+			position: "Creative Director",
+			company: "Nimbus Agency",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"With MacBook Air, I save hours on every project. My team finishes edits in record time, and our creative flow never gets interrupted.",
+			image: "/generated/image-a-confident-middle-aged-woman-working-in.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Kwame Mansa",
+			position: "Music Producer",
+			company: "Mansa Soundworks",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Apple Music lets me manage playlists, share tracks, and relax—all without missing a beat. It makes life and work easier, every day.",
+			image: "/generated/image-a-young-black-man-relaxing-in-a-cozy-liv.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Takeshi Fujimoto",
+			position: "Financial Controller",
+			company: "Suzukiko Trading Co.",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Using iPhone to track company expenses minimized budget errors and helped us save thousands this quarter. Real-time control makes all the difference.",
+			image: "/generated/image-an-asian-senior-man-thoughtfully-reviewi.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Made to work together. Designed to work for you."
+	subtitle="Experience seamless integration, privacy, and premium support across every device."
 	features={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
-		}
+	  {
+	    title: "Smart assistance, right when you need it",
+	    description: "Apple Intelligence helps you write, organize, and get things done—automatically. All while keeping your data private and your information secure."
+	  },
+	  {
+	    title: "All your devices, all in sync",
+	    description: "Start an email on your iPhone, finish it on your Mac, then join a FaceTime call from your iPad—no setup needed, it just works."
+	  },
+	  {
+	    title: "Your entertainment, your way",
+	    description: "Stream award-winning shows on Apple TV+, listen to over 100 million songs on Apple Music, and play hundreds of ad-free games with Apple Arcade—all in one ecosystem."
+	  },
+	  {
+	    title: "Power that keeps up with you",
+	    description: "From the performance of M-series chips to the all-day battery life of Apple Watch, every product is engineered to run fast, cool, and smooth no matter the task."
+	  },
+	  {
+	    title: "Finance designed around you",
+	    description: "With Apple Card’s daily cash back, flexible payment options, and seamless Wallet integration, you’re in control of spending, saving, and sharing—and staying on budget feels effortless."
+	  },
+	  {
+	    title: "Support that never misses a beat",
+	    description: "Whether you need directions, a repair, or advice on what to buy next, Apple Support makes it easy to get expert help—online, by chat, or in-store whenever you need it."
+	  }
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Pick up right where you left off",
+			description: "Start an email on your Mac, reply from your iPad, and finish it from your iPhone without missing a beat. With Apple's seamless handoff across devices, it's easy to stay in sync wherever you go.",
+			image: "/generated/image-a-group-of-people-gathered-in-a-cozy-liv.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/device-integration",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Entertainment made for everyone",
+			description: "Share Apple TV+, Apple Arcade, and Apple Music with your family while keeping individual preferences and privacy intact. Family sharing makes it simple to manage it all from one place.",
+			image: "/generated/image-a-family-of-four-sitting-together-in-a-s.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/family-entertainment",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Daily wellness that stays with you",
+			description: "Track workouts with Apple Watch, view progress over time on your iPhone, and stay motivated with Fitness+ wherever you are. Your health goals, always connected and easy to follow.",
+			image: "/generated/image-an-active-person-jogging-along-a-scenic-.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/daily-wellness",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Designed to work smarter, together"
+  subtitle="Every device. Every service. All Apple."
+  description="Experience beautiful design, seamless integration, and rewarding experiences across iPhone, Mac, iPad, Apple Watch, and more. Join millions who work, play, and create with Apple—where everything just works."
+  imageSrc="/generated/image-a-cheerful-college-student-sitting-comfo.webp"
+  callsToAction={[
+    { href: '/shop', label: 'Shop now', variant: 'primary' },
+    { href: '/learn', label: 'Learn more', variant: 'secondary' }
+  ]}
+/>
