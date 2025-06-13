@@ -84,10 +84,12 @@ export const navigation: NavItem[] = [
 				description: "Track workouts with Apple Watch, view progress over time on your iPhone, and stay motivated with Fitness+ wherever you are. Your health goals, always connected and easy to follow.",
 				showInNav: true,
 				showInFooter: true
-			}
+			},
+			{
+				label: "Healthcare",
+				href: "/use-cases/healthcare",
 				image:
 					"https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1920&auto=format&fit=crop",
-
 				description:
 					"Innovative solutions for patient care, delivering advanced analytics to improve diagnostics, enhancing personalized treatment plans through real‑time data insights, and seamlessly integrating with existing healthcare systems to drive better outcomes and streamline clinical workflows",
 				showInNav: true,
