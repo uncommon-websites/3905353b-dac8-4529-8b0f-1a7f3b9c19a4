@@ -14,7 +14,7 @@
 	title="Everything works.Across every device."
 	subtitle="Designed to connect effortlessly and elevate what you do."
 	imageSrc="/generated/image-a-diverse-group-of-people-gathered-in-a-.webp"
-	centered={true}
+	centered={false}
 />
 <LogoScroller
 	label="Trusted by industry leaders"
