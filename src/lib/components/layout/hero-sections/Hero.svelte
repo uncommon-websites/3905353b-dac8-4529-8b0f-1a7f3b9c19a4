@@ -72,7 +72,7 @@
 		data-enter-container
 	>
 		<div class="grid gap-6" class:max-w-prose={centered}>
-			<h1 class="text-display w-full" data-enter>
+			<h1 class="text-display w-full text-left" data-enter>
 				<span class="block"><AnimateText text={title} /></span>
 				{#if !centered}
 					<span class="text-emphasis-dim block"><AnimateText text={subtitle} /></span>
