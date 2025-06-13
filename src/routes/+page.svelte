@@ -11,7 +11,7 @@
 </script>
 
 <Hero
-	title="Everything works beautifully. Across every device."
+	title="Everything works.Across every device."
 	subtitle="Designed to connect effortlessly and elevate what you do."
 	imageSrc="/generated/image-a-diverse-group-of-people-gathered-in-a-.webp"
 	centered={true}
